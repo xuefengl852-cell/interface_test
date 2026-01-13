@@ -1,0 +1,19 @@
+2026-01-13 11:53:49 - api_auto_test - yaml_loader.py:22 - INFO - 读取文件<_io.TextIOWrapper name='D:\\interface_test\\config\\config.yaml' mode='r' encoding='utf-8'>成功
+2026-01-13 11:53:49 - api_auto_test - request_handler.py:19 - INFO - 请求地址为：http://127.0.0.1:8082/tmall/login/doLogin，请求方式为：POST
+2026-01-13 11:53:49 - api_auto_test - test_login.py:39 - INFO - URL参数：{'username': 'MRJIANG', 'password': 'cc123.0'}
+2026-01-13 11:53:49 - api_auto_test - test_login.py:40 - INFO - <Response [200]>
+2026-01-13 11:53:49 - api_auto_test - test_login.py:43 - INFO - 
+            ========== 完整响应信息 ==========
+            状态码: 200
+            响应URL: http://127.0.0.1:8082/tmall/login/doLogin
+            耗时: 0.033s
+            响应头: {'Set-Cookie': 'JSESSIONID=D4D2094AE7628D67121764450D6E93E3; Path=/tmall; HttpOnly', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '16', 'Date': 'Tue, 13 Jan 2026 03:53:49 GMT'}
+            Cookie: {'JSESSIONID': 'D4D2094AE7628D67121764450D6E93E3'}
+            响应体: {
+  "success": true
+}
+            =================================
+            
+2026-01-13 11:53:49 - api_auto_test - test_login.py:23 - ERROR - 参数解析失败：{
+  "success": true
+}，错误：malformed node or string on line 1: <ast.Name object at 0x000002549184A1D0>
