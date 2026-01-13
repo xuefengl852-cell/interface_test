@@ -41,7 +41,7 @@ class TestLogin:
         with allure.step("断言返回值是否正确"):
             expected_status_code = login_interface_data['预期状态码']
             logger.info(f"""
-            ========== 完整响应信息 11111111==========
+            ========== 完整响应信息 111111111==========
             状态码: {response.status_code}
             响应URL: {response.url}
             耗时: {response.elapsed.total_seconds():.3f}s
