@@ -1,4 +1,4 @@
-base_url: "http://127.0.0.1:8082/tmall"
+base_url: "http://20.44.152.195:8080/run_llm_task/{task_name}"
 
 timeout: 10
 
